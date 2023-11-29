@@ -20,7 +20,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { ThreadValidation, CommentValidation } from '@/lib/validation/thread';
 
 import mongoose from 'mongoose';
-import { createThread } from '@/lib/actions/thread.action';
+import { createThread } from '@/lib/actions/thread.actions';
 
 interface Props {
   user: {
